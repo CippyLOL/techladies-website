@@ -13,16 +13,45 @@ const volunteerFAQData = [
     id: 2,
     question: "What is the expected level of commitment?",
     answer: `
-        <p>
+        <>
           Everyone has other priorities in life - our careers, family, and other
           interests. We understand! We can tailor your volunteering experience to
           what you're comfortable in contributing. For the core team leaders, you
           are expected to join the monthly all-hands where we plan activities and
           share ideas.
-        </p>`,
+        </>`,
   },
   {
     id: 3,
+    question: "What can volunteers expect out of the experience?",
+    answer: `
+        <p>
+          You can expect to make a difference with like-minded people passionate
+          about the same cause! Beyond that, we would like to thank your time and
+          skills by:
+          <ul class="list-style-type: disc">
+            <li>
+              Recognizing and profiling you at TechLadies website, FB group, FB
+              page, and newsletter
+            </li>
+            <li>
+              Putting you first in line for goodies as TechLadies receive them
+            </li>
+            <li>
+              Providing you a seat at all TechLadies events and workshops, for
+              free
+            </li>
+            <li>Exclusive TechLadies swags!</li>
+            <li>
+              [For core team leaders] Have you represent TechLadies at events and
+              media requests
+            </li>
+          </ul>
+        </p>
+      `,
+  },
+  {
+    id: 4,
     question: "I'm not a local, can I still volunteer?",
     answer: `
         <p>
@@ -33,7 +62,7 @@ const volunteerFAQData = [
       `,
   },
   {
-    id: 4,
+    id: 5,
     question: "What's the volunteering culture like at TechLadies?",
     answer: `
         <p>
@@ -43,7 +72,7 @@ const volunteerFAQData = [
       `,
   },
   {
-    id: 5,
+    id: 6,
     question: "Can I bring TechLadies to my city?",
     answer: `
         <p>
@@ -54,7 +83,7 @@ const volunteerFAQData = [
           chapter. Ideal chapter leaders are resourceful, independent, and can
           commit >10 hours every month. A technical background is not required. If
           you are interested in applying, please email Elisha at
-          <a href="mailto:elisha@techladies.co">elisha@techladies.co</a>.
+          elisha@techladies.co.
         </p>
       `,
   },

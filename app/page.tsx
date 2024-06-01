@@ -5,7 +5,6 @@ import { title, subtitle } from "@/components/primitives";
 import { Button } from "@nextui-org/button";
 import { Avatar, AvatarGroup } from "@nextui-org/avatar";
 import { Image } from "@nextui-org/image";
-import NextImage from "next/image";
 
 export default function Home() {
   return (
@@ -81,7 +80,12 @@ export default function Home() {
             TechLadies is managed by volunteers passionate about increasing
             gender diversity in the tech industry.
           </h2>
-          <Button radius="full" color="primary">
+          <Button
+            as={Link}
+            radius="full"
+            color="primary"
+            href={siteConfig.navItems[1].href + "#our-team"}
+          >
             Our Team
           </Button>
         </div>
@@ -93,15 +97,6 @@ export default function Home() {
         </h3>
         <div className="columns-3">
           <Image
-            // as={NextImage}
-            width={200}
-            height={70}
-            src="/images/e27-logo.png"
-            alt="e27 logo"
-            radius="none"
-          />
-          <Image
-            // as={NextImage}
             width={200}
             height={50}
             src="/images/e27-logo.svg"

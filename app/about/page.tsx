@@ -21,7 +21,7 @@ export default function AboutPage() {
         <Button>Join our Telegram</Button>
       </div>
       {/* HOW WE GOT STARTED */}
-      <div>
+      <div className="bg-danger h-screen">
         <h1 className={title()}>How We Got Started</h1>
         <p>
           As someone with no formal technical background, Elisha Tan learned to
@@ -36,7 +36,7 @@ export default function AboutPage() {
       </div>
 
       {/* VOLUNTEERS */}
-      <div>
+      <div id="our-team">
         <h1 className={title()}>
           Today, TechLadies is led by a small group of volunteers
         </h1>
